@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "773225644735",
+    "project_id": "naari-e1a75",
+    "storage_bucket": "naari-e1a75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773225644735:android:54451c4762c5f9213f3c0a",
+        "android_client_info": {
+          "package_name": "com.app.naari"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANBlqoF12KGEcuoiiIeiuXnsMsF4T_VL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
