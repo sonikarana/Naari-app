@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        FirebaseApp.initializeApp(this);
+
     }
 
     @Override
@@ -79,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         String V1 = extras.getString(Intent.EXTRA_TEXT);
         Log.d("NumberMainActivity", V1);
 
-        FirebaseApp.initializeApp(this);
+//        FirebaseApp.initializeApp(this);
     }
 //    public void myProfile(View v){
 //        Intent i = new Intent(getApplicationContext(), MyProfile.class);
